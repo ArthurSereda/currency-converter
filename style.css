@@ -1,0 +1,44 @@
+* 
+{
+  box-sizing: border-box;
+}
+body {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-top: 200px;
+  /* background-color: #FAF8F5; */
+  background-image: url(/bg.jpg);
+  display: flex;
+  justify-content: center;
+}
+form {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 10px 0px 10px #333;
+  border: 7px solid #FFB66E;
+  /* border-radius: 15px; */
+}
+form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+input {
+  outline: none;
+  width: 250px;
+  padding: 7px;
+  background-color: #FFB66E;
+  /* box-shadow: inset 0px 0px 5px #333; */
+}
